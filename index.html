@@ -1,0 +1,194 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankit's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b78527ca48.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!-- <img id="nav-logo" src="photo_6228551050445568156_x.jpg" alt=""> -->
+        <h2 id="nav-logo"><span id="nav-logo">𝐀</span>𝐧𝐤𝐢𝐭.</h2>
+        <ul id="side-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Ankit</span><br>From California</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------ About Section -------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="photo_6233297328610064527_y.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <!-- <p>Hey Everyone My name is Ankit Singh and I am a second year B.Tech Computer Science student with a passion for programming and Technology.My Goal is to become a software developer engineer currently I am developing my expertise in MERN STACK Web Development.</p> -->
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam iusto atque a fuga corrupti. Sapiente illo qui corrupti quae, laborum vitae ratione enim, deleniti eveniet, aliquam dolor possimus voluptate! Officia vero, at cupiditate nam ex voluptatem culpa incidunt saepe fugit ducimus labore a! Fugiat, expedita velit? Dolor quidem dolore aperiam totam soluta aliquid magni!</p> -->
+            <p>As a second-year engineering student, I am passionate about delving into the dynamic world of technology and programming. Currently focused on front-end development, I find joy in crafting user interfaces that seamlessly merge functionality with aesthetics. My journey into the realm of software development is driven by a deep-seated curiosity and a desire to contribute to the ever-evolving landscape of technology.
+
+              
+              
+              As I navigate through my second year of engineering studies, I am actively seeking opportunities to expand my skill set. From mastering front-end frameworks to exploring back-end technologies, my goal is to acquire a well-rounded proficiency in software development. The dynamic nature of this field ensures that there is always something new to learn and implement.
+              
+              
+              
+
+              
+              </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick= "opentab('skills')">Skills</p>
+              <p class="tab-links" onclick = "opentab('experience')">Experience</p>
+              <p class="tab-links" onclick = "opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Desiging Web/App Interfaces</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>App Development</span><br>Building Android/IOS apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021 - current</span><br>UI/UX Design Training At ET Institute</li>
+                <li><span>2019 - 2021</span><br>Team lead At Starapp LLC</li>
+                <li><span>2017 - 2019</span><br>UI/UX design Executive at Coin Digitak Ltd.</li>
+                <li><span>2016 - 2017</span><br>Internship at Ekart eCommerce</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br>Class: 12 Percentage: 79.91%</li>
+                <li><span>2016</span><br>Class: 10 Percentage: 74.33%</li>
+                <li><span>2022 - 2026</span><br>Graduation: Computer and Science Engineering.<br>Institute: Babu Banarasi Das Institue of Technology and Management </li>
+              </ul>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!-- ------------------------Services ---------------------------- -->
+ <div id="services">
+  <div class="container">
+    <h1 class="subtitle small-width">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, iusto nihil! Aliquid quo deleniti deserunt, suscipit veritatis cum harum dolorem!</p>
+        <a href="">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-crop"></i>
+        <h2>UI Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, iusto nihil! Aliquid quo deleniti deserunt, suscipit veritatis cum harum dolorem!</p>
+        <a href="">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, iusto nihil! Aliquid quo deleniti deserunt, suscipit veritatis cum harum dolorem!</p>
+        <a href="">Learn more</a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- ------------- Portfolio ------------ -->
+ <div id="portfolio">
+  <div class="container">
+    <h1 class="subtitle small-width">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="netflixlogo.png"alt="">
+        <div class="layer">
+          <h3>Netflix Clone</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis id, impedit obcaecati in sint assumenda, quidem laboriosam accusantium et temporibus doloribus.\</p>
+          <a href="Netflic_clone/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="moderengineer.png" alt="" style="height: 100%;">
+        <div class="layer">
+          <h3>A Modern Website Clone</h3>
+          <p>Created a begginer level Frontent Project which is basically a clone and and it is completely Responsive</p>
+          <a href="newMODERN_WEB_CLONE/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="spacexx.svg" style="height: 500px;" alt="">
+        <div class="layer">
+          <h3>SpaceX Clone</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis id, impedit obcaecati in sint assumenda, quidem laboriosam accusantium et temporibus doloribus.\</p>
+          <a href="spacex_clone/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="" class="btn">See more</a>
+  </div>
+ </div>
+
+ <!-- ------------------------ Contact section ----------------- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtitle">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i>ankitsingh41615@gmail.com</p>
+        <p> <i class="fa-solid fa-square-phone"></i>1800 1111 1901</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ankit-singh-787971238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app_blank" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://instagram.com/__ankit._.singh_?igshid=NzZlODBkYWE4Ng==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="Ankit_Singh_Resume_24-08-2023-14-34-21.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text " name="Name" placeholder="Your Name" required>
+          <input type="email " name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ ankit. Made with ❤️by me itself</p>
+  </div>
+ </div>
+  <script src="script.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwGxdO8HZpvvpnSkEhBnurPNf8HibgZo8IaY11_hBJb_OSpL88QXNCL3ehWftsjU9oC/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  
+  
+</body>
+</html>
